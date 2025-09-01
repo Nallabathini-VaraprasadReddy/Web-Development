@@ -1,0 +1,65 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  background-color: white;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+body {
+  border: 2px solid rgb(4, 4, 5);
+  height: 100%;
+  width: 96%;
+  margin: 1rem;
+  padding: 10px;
+  /* background-color: aqua; */
+  /* color: blue; */
+}
+
+.designation {
+  font-weight: 500;
+}
+
+.contact-info {
+  display: flex;
+  text-decoration: none;
+}
+
+.contact-info a {
+  text-decoration: none;
+}
+
+h3 {
+  background-color: rgb(235, 235, 244);
+  text-decoration-line: underline;
+}
+
+a {
+  display: block;
+}
+
+p {
+  font-weight: 400;
+  display: inline;
+}
+
+.top-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.year {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.project {
+  display: flex;
+  justify-content: space-between;
+}
+
+.college {
+  display: flex;
+  justify-content: space-between;
+}

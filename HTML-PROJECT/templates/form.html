@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+  </head>
+  <body>
+    <font color="orange">
+      <h1>INTRODUCTION</h1>
+    </font>
+    <p>
+      <b
+        >Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
+        veniam minima aliquam, harum blanditiis impedit distinctio id, fugiat
+        obcaecati suscipit, explicabo in. Ullam reprehenderit necessitatibus
+        voluptates iusto praesentium aspernatur at!</b
+      >
+    </p>
+
+    <hr />
+    <font color="orange"> <h1>MENU</h1> </font
+    ><b>
+      <ol type="1">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="course.html">Courses</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="form.html">Form</a></li>
+      </ol>
+    </b>
+    <hr />
+    <h1 style="color: orange">FORM</h1>
+    <form action="python.py">
+      <fieldset>
+        <legend style="font-weight: 800">Personal Information</legend>
+        <br />
+        First Name:
+        <input type="text" placeholder="Enter Your First Name" /><br /><br />
+        Last Name:<input type="text" placeholder="Enter Your Last Name" /><br />
+        <h4>Gender</h4>
+        <label for="Male">
+          <input type="radio" name="Male" id="Male" />Male
+        </label>
+        <label for="Female">
+          <input type="radio" name="Male" id="Female" />Female
+        </label>
+        <h4>Address</h4>
+        <textarea
+          name="address"
+          id="address"
+          placeholder="Enter Your Address Here"
+          rows="5"
+          cols="30"
+        ></textarea>
+      </fieldset>
+      <br />
+      <fieldset>
+        <legend style="font-weight: 800">Academic Information</legend>
+        <h4>Marks</h4>
+        I-Year Marks:<input
+          type="text"
+          placeholder="Enter Your I Year Marks"
+        /><br /><br />
+        II-Year Marks:<input
+          type="text"
+          placeholder="Enter Your II Year Marks"
+        /><br /><br />
+        III-Year Marks:<input
+          type="text"
+          placeholder="Enter Your III Year Marks"
+        /><br /><br />
+        IV-Year Marks:<input
+          type="text"
+          placeholder="Enter Your IV Year Marks"
+        /><br /><br /><br />
+        <div class="center">
+          Overall Percentage
+          <input
+            type="text"
+            name=""
+            id=""
+            placeholder="Enter Overall Percentage"
+          />
+        </div>
+      </fieldset>
+      <br />
+      <fieldset>
+        <legend style="font-weight: 800">Extra Curricular Activities</legend>
+        <h4>Hobbies</h4>
+        <label for="singing"
+          ><input type="checkbox" name="singing" id="singing" />Singing</label
+        ><br />
+        <label for="dancing"
+          ><input type="checkbox" name="dancing" id="dancing" />Dancing</label
+        ><br />
+        <label for="reading"
+          ><input type="checkbox" name="reading" id="reading" />Reading</label
+        ><br />
+        <label for="playing"
+          ><input type="checkbox" name="playing" id="playing" />Playing</label
+        ><br />
+        <label for="gardening"
+          ><input
+            type="checkbox"
+            name="gardening"
+            id="gardening"
+          />Gardening</label
+        ><br />
+      </fieldset>
+      <br />
+      <div class="center">
+        <button>Submit</button>
+        <input type="reset" class="reset" value="Reset" />
+      </div>
+    </form>
+  </body>
+</html>

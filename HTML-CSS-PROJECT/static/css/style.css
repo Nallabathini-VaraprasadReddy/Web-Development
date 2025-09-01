@@ -1,0 +1,34 @@
+* {
+  background-color: rgb(103, 99, 99);
+  color: rgb(244, 244, 242);
+  margin: 0px;
+  padding: 0px;
+}
+
+/**Home Section**/
+
+.anchor {
+  margin: 1rem;
+}
+
+a {
+  text-decoration: none;
+  font-size: x-large;
+  color: rgb(137, 219, 192);
+}
+
+.home {
+  background-image: url("/HTML-CSS-PROJECT/static/images/Gmail_icon.png");
+  background-size: contain;
+}
+
+/* About Section */
+.about {
+  background-image: url("/HTML-CSS-PROJECT/static/images/tiger.jpg");
+  background-size: contain;
+}
+/* Enquires Section */
+.enquiry {
+  background-image: url("/HTML-CSS-PROJECT/static/images/unsplash.jpg");
+  background-size: contain;
+}

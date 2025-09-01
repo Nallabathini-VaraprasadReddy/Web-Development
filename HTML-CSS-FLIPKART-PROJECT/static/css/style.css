@@ -1,0 +1,216 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  border: border-box;
+  outline: none;
+}
+
+.navbar {
+  height: 40px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 10px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu-bar i {
+  font-size: 30px;
+  margin-right: 15px;
+  color: #92928f;
+}
+
+.logo-title a {
+  font-size: 1.3rem;
+  color: blue;
+  text-decoration: none;
+}
+
+.logo-sub-title a {
+  font-size: 0.8rem;
+  color: #92928f;
+}
+
+.logo-sub-title span {
+  font-size: 0.8rem;
+  color: gold;
+}
+
+.search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f0eb;
+}
+
+.search:hover {
+  border: 1px solid rgb(70, 68, 187);
+}
+.search i {
+  font-size: 25px;
+  color: #92928f;
+  padding-left: 10px;
+}
+
+.search input {
+  font-size: 1.2rem;
+  height: 38px;
+  width: 30rem;
+  border: none;
+  background-color: #f0f0eb;
+  padding-left: 10px;
+}
+
+.login a {
+  height: 40px;
+  width: 75px;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  padding-left: 10px;
+  color: #0c0c0c;
+}
+
+.login a:hover {
+  background-color: blue;
+  color: #f0f0eb;
+  border-radius: 5px;
+}
+
+.login i {
+  padding-right: 5px;
+}
+
+.cart i {
+  font-size: 25px;
+  color: #585856;
+}
+
+.cart span {
+  font-size: 16px;
+  color: black;
+  font-weight: 500;
+  padding-left: 5px;
+}
+
+/* pannel bar starts */
+
+.pannel-bar {
+  height: 130px;
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.box-img {
+  height: 80px;
+  width: 80px;
+  background-size: cover;
+}
+
+#title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Hero Section */
+
+.hero-img {
+  height: 300px;
+  width: 100%;
+}
+/* Fasion Deals */
+
+.fashion-deals {
+  margin-top: 15px;
+}
+
+#fasion-title {
+  text-align: center;
+  background-color: rgb(220, 228, 241);
+}
+
+.fashion-day-deals {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.fashion {
+  height: 330px;
+  width: 23%;
+}
+.fashion-img {
+  height: 300px;
+  width: 100%;
+  background-size: cover;
+}
+
+.fashion-sub-title {
+  font-weight: 600;
+  text-align: center;
+  padding: 10px;
+}
+
+/* Deals Of The Day */
+#deals-title {
+  text-align: center;
+  background-color: rgb(220, 228, 241);
+}
+
+.delas-of-the-day {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.day-deals {
+  height: 230px;
+  width: 31%;
+}
+
+.day-deals-img {
+  height: 200px;
+  width: 100%;
+  background-size: cover;
+}
+
+.day-deals-title {
+  text-align: center;
+  font-weight: 600;
+}
+
+/** Footer Section **/
+footer {
+  height: 16rem;
+  padding-top: 15px;
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  color: rgb(207, 167, 167);
+  background-color: #323131;
+}
+
+.content-area a {
+  display: block;
+  text-decoration: none;
+  color: white;
+  padding-top: 10px;
+}
